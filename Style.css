@@ -1,0 +1,97 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #fdeb9e;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  text-align: center;
+  position: relative;
+  background: transparent;
+  width: 90%;
+  max-width: 500px;
+  padding: 25px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.game-container h2 {
+  color: #077a7d;
+  margin-bottom: 20px;
+  font-size: clamp(24px, 5vw, 36px);
+  font-weight: bold;
+}
+.game-container h2.font {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  margin-top: 30px;
+  justify-content: center;
+  gap: 30px;
+}
+
+button {
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+
+#yesBtn {
+  background-color: #077a7d;
+  border: none;
+  color: #06202b;
+  position: relative;
+}
+
+#yesBtn:hover {
+  background-color: #49a191;
+}
+
+#noBtn {
+  background-color: #077a7d;
+  color: #06202b;
+  position: relative;
+}
+
+#noBtn:hover {
+  background-color: #49a191;
+}
+
+.hidden {
+  display: none;
+}
+
+#responseMsg {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #6b705c;
+  font-weight: bold;
+}
+
+.new-background {
+  background-image: url('images/Kisses.png');
+  background-size: cover;          /* بتخلي الصورة تغطي الشاشة كلها بدون فراغات */
+  background-position: center;     /* بتخلي تركيز الصورة بالنص تماماً على اللابتوب والموبايل */
+  background-repeat: no-repeat;    /* بتمنع تكرار الصورة جنب بعضها */
+  background-attachment: fixed;    /* بتثبت الخلفية لو صار في سكرول أو حركة */
+}
