@@ -1,3 +1,4 @@
+
 const noBtn = document.getElementById("noBtn");
 const yesBtn = document.getElementById("yesBtn");
 const responseMsg = document.getElementById("responseMsg");
